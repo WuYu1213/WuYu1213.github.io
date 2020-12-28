@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Parallax vertical</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/shadow.css">
+
+
+    <style>
+        #div1 {
+            background-image: url("AS4/grass01.jpg");
+        }
+
+        #div2 {
+            background-image: url("AS4/grass02.jpg");
+        }
+
+        #div3 {
+            background-image: url("AS4/grass03.jpg");
+        }
+
+        #div4 {
+            background-image: url("AS4/grass01.jpg");
+        }
+
+        #div5 {
+            background-image: url("AS4/grass01.jpg");
+        }
+
+        #div6 {
+            background-image: url("AS4/grass03.jpg");
+        }
+
+
+        #div1,
+        #div2,
+        #div3,
+        #div4,
+        #div5,
+        #div6{
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color:black;height:100vh;">
+    </div>
+
+    <div id="div1" class="container-fluid innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=100 data-left2=-5 data-top=-30 data-top2=40 src="AS4/kanahei-02.png" style="position:absolute;width:50%;top:0%;left:100%;">
+
+    </div>
+
+    <div class="container-fluid" style="background-color:darkgrey;min-height: 1800px"></div>
+
+    <div id="div2" class="container-fluid innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=100 data-left2=60 src="AS4/kanahei-06.png" style="position:absolute;width:30%;top:58%;left:100%;">
+        <img class="scrollable dropshadow1" data-width=60 data-width2=50 data-left=0 data-left2=15 src="AS4/kanahei-05.png" style="position:absolute;width:30%;top:40%;left:0%;">
+    </div>
+
+
+    <div class="container-fluid" style="background-color:darkgrey;min-height: 1800px"></div>
+
+    <div id="div3" class="container-fluid innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-top=-20 data-top2=50 data-left=-20 data-left2=20 data-width=10 data-width2=50 src="AS4/kanahei-09.png" style="position:absolute;width:20%;top:0%;left:0%;filter:grayscale(.3) blur(0px);">
+        <img class="scrollable dropshadow1" data-top=0 data-top2=60 data-left=20 data-left2=60 data-width=30 data-width2=40 src="AS4/kanahei-01.png" style="position:absolute;width:30%;top:5%;left:15%;">
+    </div>
+
+
+    <div class="container-fluid" style="background-color:darkgrey;min-height: 1800px"></div>
+
+    <div id="div4" class="container-fluid innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=-50 data-left2=10 data-width=40 data-width2=45 src="AS4/kanahei-08.png" style="position:absolute;width:20%;top:53%;left:0%;filter:grayscale(.3) blur(0px);">
+        <img class="scrollable dropshadow1" data-left=18 data-left2=50 data-width=20 data-width2=30 src="AS4/kanahei-01.png" style="position:absolute;width:10%;top:68%;left:10%;">
+        <img class="scrollable dropshadow1" data-left=100 data-left2=65 data-width=20 data-width2=35 data-top=5 data-top2=53 src="AS4/kanahei-11.png" style="position:absolute;width:15%;top:38%;left:10%;">
+
+    </div>
+    
+    <div class="container-fluid" style="background-color:darkgrey;min-height: 1800px"></div>
+
+    <div id="div5" class="innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=22 data-left2=-20 data-width=30 data-width2=-40 data-top=15 data-top2=5 src="AS4/kanahei-03.png" style="position:absolute;width:10%;top:3%;left:0%;filter:grayscale(.3) blur(0px);">
+        <img class="scrollable dropshadow1" data-left=30 data-left2=90 data-top=80 src="AS4/kanahei-07.png" style="position:absolute;width:25%;top:23%;left:10%;">
+        <img class="scrollable dropshadow1" data-left=50 data-left2=110 data-width=20 data-top=100 src="AS4/kanahei-04.png" style="position:absolute;width:25%;top:23%;left:10%;">
+
+    </div>
+
+
+    <div class="container-fluid" style="background-color:darkgrey;min-height: 1800px"></div>
+
+    <div id="div6" class="innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=-20 data-left2=123 data-top=10 data-top2=55 src="AS4/kanahei-09.png" style="position:absolute;width:25%;top:23%;left:10%;">
+        <img class="scrollable dropshadow1" data-left=32 data-left2=130 data-width=20 data-top=10 data-top2=55 src="AS4/kanahei-10.png" style="position:absolute;width:25%;top:23%;left:10%;">
+
+    </div>
+
+<div class="container-fluid" style="background-color:darkgrey;min-height: 1800px"></div>
+
+    <script>
+        $(document).ready(function() {
+            var winh = $(window).height();
+            $(window).scroll(function() {
+                var scrolled = $(window).scrollTop();
+                $(".scrollable").each(function() {
+                    var parent_pos = $(this).parent().offset().top;
+                    var next_pos = $(this).parent().next().offset().top;
+                    var parent_height = $(this).parent().height();
+                    var parent_scrolled = scrolled - $(this).parent().offset().top;
+                    if (parent_scrolled > 0 && scrolled < next_pos - winh) {
+
+                        if ($(this).attr("data-left")) {
+                            $(this).css('left', (($(this).data('left2') - $(this).data('left')) * parent_scrolled / winh + $(this).data('left')) + '%');
+                        }
+                        if ($(this).attr("data-top")) {
+                            $(this).css('top', (($(this).data('top2') - $(this).data('top')) * parent_scrolled / winh + $(this).data('top')) + '%');
+                        }
+                        if ($(this).attr("data-width")) {
+                            $(this).css('width', (($(this).data('width2') - $(this).data('width')) * parent_scrolled / winh + $(this).data('width')) + '%');
+                        }
+                    }
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
